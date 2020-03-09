@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/mediumstone.com/static/css/main.5f361e03.chunk.css",
-    "main.js": "/mediumstone.com/static/js/main.7b5b5355.chunk.js",
-    "main.js.map": "/mediumstone.com/static/js/main.7b5b5355.chunk.js.map",
+    "main.css": "/mediumstone.com/static/css/main.7a13da11.chunk.css",
+    "main.js": "/mediumstone.com/static/js/main.4f4753a5.chunk.js",
+    "main.js.map": "/mediumstone.com/static/js/main.4f4753a5.chunk.js.map",
     "runtime-main.js": "/mediumstone.com/static/js/runtime-main.d2e5e998.js",
     "runtime-main.js.map": "/mediumstone.com/static/js/runtime-main.d2e5e998.js.map",
     "static/js/2.862eacc8.chunk.js": "/mediumstone.com/static/js/2.862eacc8.chunk.js",
     "static/js/2.862eacc8.chunk.js.map": "/mediumstone.com/static/js/2.862eacc8.chunk.js.map",
     "index.html": "/mediumstone.com/index.html",
-    "precache-manifest.13e7c43432bfda71b5e273d8f5b24df9.js": "/mediumstone.com/precache-manifest.13e7c43432bfda71b5e273d8f5b24df9.js",
+    "precache-manifest.9a6dc5ce01603ce7b981a6c0945d3866.js": "/mediumstone.com/precache-manifest.9a6dc5ce01603ce7b981a6c0945d3866.js",
     "service-worker.js": "/mediumstone.com/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/mediumstone.com/static/css/main.5f361e03.chunk.css.map",
+    "static/css/main.7a13da11.chunk.css.map": "/mediumstone.com/static/css/main.7a13da11.chunk.css.map",
     "static/js/2.862eacc8.chunk.js.LICENSE.txt": "/mediumstone.com/static/js/2.862eacc8.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/mediumstone.com/static/media/logo.5d5d9eef.svg"
+    "static/media/stone.png": "/mediumstone.com/static/media/stone.e43dda92.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d2e5e998.js",
     "static/js/2.862eacc8.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.7b5b5355.chunk.js"
+    "static/css/main.7a13da11.chunk.css",
+    "static/js/main.4f4753a5.chunk.js"
   ]
 }
