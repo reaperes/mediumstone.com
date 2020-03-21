@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8daa4ef42dc13be1c53360f99e15560b",
+    "revision": "fc983d2d04bc3fac02750343660fe154",
     "url": "/mediumstone.com/index.html"
   },
   {
-    "revision": "ff940f60a4d6e399f2da",
-    "url": "/mediumstone.com/static/css/main.33321724.chunk.css"
+    "revision": "9cb7947eccebe0900d4b",
+    "url": "/mediumstone.com/static/css/main.00dac282.chunk.css"
   },
   {
     "revision": "67b4d4defb9bde712770",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mediumstone.com/static/js/2.748fecef.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ff940f60a4d6e399f2da",
-    "url": "/mediumstone.com/static/js/main.daac5d09.chunk.js"
+    "revision": "9cb7947eccebe0900d4b",
+    "url": "/mediumstone.com/static/js/main.ff3e2f5c.chunk.js"
   },
   {
     "revision": "d788ca527f7f7f390b4c",
