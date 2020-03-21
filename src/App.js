@@ -1,10 +1,12 @@
 import React from 'react';
 import stone from './stone.png';
+import cx from 'classnames';
+import { isMobile } from 'react-device-detect';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className={cx("App", {mobile: isMobile})}>
       <img src={stone} className="logo" alt="logo" />
       <h2 className="title">Medium Stone</h2>
       <p className="description">

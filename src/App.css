@@ -8,8 +8,12 @@
   width: 1080px;
 }
 
+.App.mobile {
+  width: 360px;
+}
+
 .logo {
-  width: 600px;
+  width: 80%;
   margin: 20px 0;
 }
 
@@ -19,7 +23,7 @@
 }
 
 .description {
-  width: 400px;
+  width: 40%;
   font-size: 1rem;
   line-height: 1.2;
 }
