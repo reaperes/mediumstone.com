@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "607852fd19d6aced62c7d6007ac8f5ee",
+    "revision": "c099d8db2048b23ad57e311bb205edfe",
     "url": "/mediumstone.com/index.html"
   },
   {
-    "revision": "9564bf1094195a8bce9a",
+    "revision": "4d6fc21649cb1000cb02",
     "url": "/mediumstone.com/static/css/main.9143a501.chunk.css"
   },
   {
@@ -16,15 +16,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mediumstone.com/static/js/2.748fecef.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9564bf1094195a8bce9a",
-    "url": "/mediumstone.com/static/js/main.c7a1bd6f.chunk.js"
+    "revision": "4d6fc21649cb1000cb02",
+    "url": "/mediumstone.com/static/js/main.b5313d6f.chunk.js"
   },
   {
     "revision": "d788ca527f7f7f390b4c",
     "url": "/mediumstone.com/static/js/runtime-main.d2e5e998.js"
   },
   {
-    "revision": "35a19ee341d9dd794607e0babca4699a",
-    "url": "/mediumstone.com/static/media/mediumstone.35a19ee3.png"
+    "revision": "ba3ccee383d7d53ce4c2f99a9c406447",
+    "url": "/mediumstone.com/static/media/mediumstone.ba3ccee3.png"
   }
 ]);
