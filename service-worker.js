@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/mediumstone.com/precache-manifest.bbab98cee1089192def3b9f96a64f0b2.js"
+  "/mediumstone.com/precache-manifest.2e14f6986527f0ef401bc7bcfd090790.js"
 );
 
 self.addEventListener('message', (event) => {
