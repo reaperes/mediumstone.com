@@ -19,7 +19,9 @@ function App() {
         <br />
         고요하게 천천히 쉬었다 가시길 바랍니다.
         <br />
-        The silence in your Life.
+        <span className="slogan">
+          We love still your smile, we love still your medium.
+        </span>
       </p>
     </div>
   );

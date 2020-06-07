@@ -21,6 +21,7 @@
 .description {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   bottom: 10vh;
   left: 0;
   right: 0;
@@ -29,6 +30,10 @@
   line-height: 2.2;
   text-align: center;
   color: black;
+}
+
+.description .slogan {
+  font-size: 1.5em;
 }
 
 .App.mobile .description {
