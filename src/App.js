@@ -1,13 +1,16 @@
 import React from 'react';
-import stone from './mediumstone.png';
 import cx from 'classnames';
 import { isMobile } from 'react-device-detect';
 import './App.css';
 
+// import stone from './mediumstone.png';
+// https://blog.naver.com/reaperes/221993076994
+const stone = "https://blogfiles.pstatic.net/MjAyMDA2MDdfMjYy/MDAxNTkxNTI0NjE0Mjg3.Hy1SEWPZ22YHXIo4zBfkyo35hB0XxUvkg3HbTcY0E58g.-rMPXWBq3L_Pq4rd5dt5dC-1rikF39ydv1C3CzcE9yEg.PNG.reaperes/mediumstone.png"
+
 function App() {
   return (
     <div className={cx("App", {mobile: isMobile})}>
-      <img src={stone} className="logo" alt="logo">
+      <img referrerPolicy="no-referrer" src={stone} className="logo" alt="logo">
       </img>
       <p className="description">
         미디엄 스톤은 바쁘고 복잡한 도심 한 가운데서
