@@ -8,7 +8,7 @@ function App() {
     <div className={cx("App", {mobile: isMobile})}>
       <section className="section background" />
       <section className="section mediumstone">
-        <img src="/mediumstone.com/mediumstone.png" alt="mediumstone"/>
+        <img className="sticky" src="/mediumstone.com/mediumstone.png" alt="mediumstone"/>
       </section>
       <section className="section description">
         <div>미디엄 스톤은 바쁘고 복잡한 도심 한 가운데서</div>
