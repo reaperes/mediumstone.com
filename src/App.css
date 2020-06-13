@@ -1,41 +1,90 @@
 .App {
   position: relative;
-  display: flex;
-  flex-direction: column;
+  height: 100vh;
+  min-width: 1130px;  /* naver mainpage width */
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
 }
 
 .App.mobile {
-  width: 360px;
+  min-width: 320px;  /* iphone 5 */
 }
 
-.logo {
+.section {
+  position: relative;
+  display: flex;
+}
+
+.background {
+  height: 100%;
+}
+
+.App.mobile .background {
+  height: 100vh;
+}
+
+.background::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  transform: translateZ(-1px) scale(1.5);
+  z-index: -1;
+
+  background-image: url('/mediumstone.com/background.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.App.mobile .background::after {
+  background-size: cover;
+}
+
+.mediumstone {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 20vh;
+  right: 20vh;
+  height: 100vh;
+}
+
+.App.mobile .mediumstone {
+  left: 2rem;
+  right: 2rem;
+}
+
+.mediumstone img {
   width: 100%;
+  max-width: 640px;
   height: auto;
-}
-
-.App.mobile .logo {
-  height: auto;
-  min-width: 100%;
 }
 
 .description {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  bottom: 10vh;
+  bottom: 0;
   left: 0;
   right: 0;
-  padding: 5rem 0;
+  padding: 3rem 0;
   font-size: 0.9rem;
   line-height: 2.2;
   text-align: center;
   color: black;
-}
-
-.description .slogan {
-  font-size: 1.5em;
+  background: white;
 }
 
 .App.mobile .description {
   font-size: 0.8rem;
+}
+
+.description .slogan {
+  font-size: 1.5em;
 }
