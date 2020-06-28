@@ -18,4 +18,7 @@ nanumGothicFont.load().then(() => {
   document.documentElement.className += " fonts-loaded";
 });
 
-new Rellax('.rellax');
+new Rellax('.rellax', {
+  mobile: 0
+});
+
