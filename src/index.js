@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import FontFaceObserver from 'fontfaceobserver';
+import Rellax from 'rellax';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
@@ -16,3 +17,5 @@ const nanumGothicFont = new FontFaceObserver('Nanum Gothic');
 nanumGothicFont.load().then(() => {
   document.documentElement.className += " fonts-loaded";
 });
+
+new Rellax('.rellax');

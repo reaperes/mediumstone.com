@@ -7,7 +7,7 @@ function App() {
   return (
     <div className={cx("App", {mobile: isMobile})}>
       <section className="section background" />
-      <section className="section mediumstone">
+      <section className="section mediumstone rellax" data-rellax-speed="-10">
         <img className="sticky" src="/mediumstone.com/mediumstone.png" alt="mediumstone"/>
       </section>
       <section className="section description">
